@@ -1,10 +1,10 @@
 import React from 'react'
 
-function IndividualComment({value}) {
+function IndividualComment({value, user}) {
   return (
     <div key={value.index} className="comment">
-        <p clsasName="author"><b>Author: </b>{value.name}</p>
-        <p>{value.content}</p>
+        <p className="author"><b>Author: </b>{value.name}</p>
+        <p>{value.body}</p>
     </div>
   )
 }

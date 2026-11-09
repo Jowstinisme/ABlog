@@ -6,7 +6,7 @@ function ContactPage() {
         name:"",
         email: "",
         message: "",
-    })
+    });
 
     const submitForm = (e) => {
         if (formInput.message.length < 10){
